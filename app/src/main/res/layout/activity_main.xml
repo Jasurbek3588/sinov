@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-android:background="@color/white"
+    android:background="#34958F8F"
     tools:context=".MainActivity">
 
 
@@ -22,7 +22,7 @@ android:background="@color/white"
 
     <LinearLayout
         android:layout_width="180dp"
-        android:layout_height="270dp"
+        android:layout_height="235dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="15dp"
         android:orientation="vertical"
@@ -30,33 +30,70 @@ android:background="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/dua"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Solatan Nariya"
+            android:textColor="#317534"
+            android:textSize="25dp"/>
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="180dp"
-        android:layout_height="195dp"
+        android:layout_height="235dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         android:background="@drawable/menu"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tasbih"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tasbeh"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="25sp"
+            android:textColor="#317534"
+
+            />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="180dp"
-        android:layout_height="195dp"
+        android:layout_height="235dp"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/menu"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+        app:layout_constraintStart_toStartOf="parent">
+
+    </LinearLayout>
 
     <LinearLayout
         android:background="@drawable/menu"
         android:layout_width="180dp"
-        android:layout_height="270dp"
+        android:layout_height="235dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="15dp"
         android:orientation="vertical"
